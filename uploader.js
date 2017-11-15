@@ -5,11 +5,13 @@ var logs = console.log;
 var ForgeSDK = require('forge-apis');
 
 // TODO - Check the file forge-auth.sh to set these ENV variables.
-var CLIENT_ID     = process.env.FORGE_CLIENT_ID,
-	CLIENT_SECRET = process.env.FORGE_CLIENT_SECRET,
-	BUCKET_KEY    = process.env.FORGE_BUCKET_NAME + CLIENT_ID.toLowerCase(),
-	FILE_NAME     = process.env.FORGE_FILE_NAME,
-	FILE_PATH     = process.env.FORGE_FILE_PATH;
+var CLIENT_ID     = '9vNyDdQJAIabagsnLTdlRw0FrQCKpUkU',
+	CLIENT_SECRET = 'xdAmrTNDZFv4fyxB',
+	BUCKET_KEY    = 'stemfootball' + '9vNyDdQJAIabagsnLTdlRw0FrQCKpUkU'.toLowerCase(),
+	FILE_NAME     = 'two.stl',
+	FILE_PATH     = './models/two.stl';
+
+	logs(CLIENT_SECRET);
 
 var bucketsApi     = new ForgeSDK.BucketsApi(), // Buckets Client
 	objectsApi     = new ForgeSDK.ObjectsApi(), // Objects Client
