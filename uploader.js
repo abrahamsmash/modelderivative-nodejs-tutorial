@@ -8,8 +8,8 @@ var ForgeSDK = require('forge-apis');
 var CLIENT_ID     = '9vNyDdQJAIabagsnLTdlRw0FrQCKpUkU',
 	CLIENT_SECRET = 'xdAmrTNDZFv4fyxB',
 	BUCKET_KEY    = 'stemfootball' + '9vNyDdQJAIabagsnLTdlRw0FrQCKpUkU'.toLowerCase(),
-	FILE_NAME     = 'two.stl',
-	FILE_PATH     = './models/two.stl';
+	FILE_NAME     = 'three.stl',
+	FILE_PATH     = './models/three.stl';
 
 	logs(CLIENT_SECRET);
 
